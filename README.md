@@ -35,8 +35,9 @@ Una vez verificado que el archivo es legítimo, descomprimirlo:
 
 Install bitcoin core bin files:
 
-sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-0.21.1/bin/
-bitcoind --version
+    sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-0.21.1/bin/
+    
+    bitcoind --version
 
 Arrancar la sincronización en la testnet
 
@@ -51,6 +52,7 @@ Pendientes:
   - Configurar logs y monitorización
   - Demonizar
   - Correr lightning node
+  - Crear billetera con el cli y recibir tBTC
 
 References:
 
