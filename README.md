@@ -51,15 +51,19 @@ Pendientes:
   - Configurar el bitcoin.config
   - Configurar logs y monitorización
   - Demonizar
+  - Configurar el network
   - Correr lightning node
-  - Crear billetera con el cli y recibir tBTC
 
 References:
 
 https://netweblog.wordpress.com/2020/08/25/bitcoin-testnet-tutorial-for-developers/
+
 https://bitcoin.org/en/full-node#configuration-tuning
+
 https://en.bitcoinwiki.org/wiki/Bitcoind
+
 https://stadicus.github.io/RaspiBolt/raspibolt_30_bitcoin.html
+
 https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13
 
 Maybe later for lightning:
