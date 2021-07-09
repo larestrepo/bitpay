@@ -37,3 +37,13 @@ Listar las direcciones generadas con su balance
 Obtener información de la billetera
   
     bitcoin-cli getwalletinfo 
+
+Obtener información detallada de los pares conectados al nodo
+
+    bitcoin-cli getpeerinfo
+
+
+
+
+
+
