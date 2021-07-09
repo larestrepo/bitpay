@@ -48,11 +48,7 @@ Arrancar la sincronización en la testnet
 
 Pendientes:
 
-  - Configurar el bitcoin.config
-  - Configurar logs y monitorización
-  - Demonizar
-  - Configurar el network
-  - Correr lightning node
+  - Correr lightning node https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13
 
 References:
 
@@ -64,13 +60,19 @@ https://en.bitcoinwiki.org/wiki/Bitcoind
 
 https://stadicus.github.io/RaspiBolt/raspibolt_30_bitcoin.html
 
-https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13
 
 Maybe later for lightning:
+
+
+
 https://stopanddecrypt.medium.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2021-edition-46bf20fbe8ff
 https://gist.github.com/itoonx/95aec9a3b4da01fd1fd724dffc056963
 
 Bitcoin github:
 
 https://github.com/bitcoin/bitcoin
+
+Ayuda para configurar bitcoin.conf
+
+https://jlopp.github.io/bitcoin-core-config-generator/#config=eyJjb3JlIjp7ImRhZW1vbiI6MSwidHhpbmRleCI6MX0sIm5ldHdvcmsiOnsiYmluZCI6ImN1YWxxdWllcmEifSwicnBjIjp7InJwY2F1dGgiOiJidGNwYXkifX0=
 
