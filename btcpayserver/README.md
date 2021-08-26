@@ -43,18 +43,40 @@ Lo que hace btcpay-setup.sh es instalar docker, instalar docker-compose, configu
 
 Cada vez que se quiera hacer una actualización se debe correr este ejecutable, teniendo en cuenta las variables de ambiente. Explicación detallada aparece en el link de la página.
 
-Las variables de ambiente utilizadas son:
+## Las variables de ambiente utilizadas son:
 
-    export BTCPAY_HOST="nombre del dominio"
+### Para testnet
+
+    export BTCPAY_HOST="bit2cash.org"
+    export NBITCOIN_NETWORK="testnet"
+    export BTCPAYGEN_CRYPTO1="btc"
+    export BTCPAYGEN_LIGHTNING="lnd"
+    export LIGHTNING_ALIAS="bit2cash"
+    export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-add-thunderhub;opt-save-storage-s"
+    export BTCPAYGEN_REVERSEPROXY="nginx"
+    export BTCPAY_ENABLE_SSH=true
+
+### Para mainnet
+
+    export BTCPAY_HOST="bit2cash.net"
     export NBITCOIN_NETWORK="mainnet"
     export BTCPAYGEN_CRYPTO1="btc"
+    export BTCPAYGEN_LIGHTNING="lnd"
+    export LIGHTNING_ALIAS="bit2cash"
     export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage"
     export BTCPAYGEN_REVERSEPROXY="nginx"
-    export BTCPAYGEN_LIGHTNING="lnd"
     export BTCPAY_ENABLE_SSH=true
 
 BTCPAYGEN_ADDITIONAL_FRAGMENTS opción máxima de 100GB que mantiene hasta 1 año histórico. 
 BTCPAYGEN_LIGHTNING opción lnd.
 
 
+# Mantenimiento al servidor
 
+
+    apt update
+    apt upgrade -y
+
+En la carpeta de Btc docker, hacer git pull para verificar actualizaciones. 
+
+Setear nuevamente variables de ambiente (ejemplo, verificar si es mainnet o testnet) y correr el ejecutable. 
