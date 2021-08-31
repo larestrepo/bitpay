@@ -63,7 +63,7 @@ Cada vez que se quiera hacer una actualización se debe correr este ejecutable, 
     export BTCPAYGEN_CRYPTO1="btc"
     export BTCPAYGEN_LIGHTNING="lnd"
     export LIGHTNING_ALIAS="bit2cash"
-    export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage"
+    export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-add-thunderhub;opt-save-storage"
     export BTCPAYGEN_REVERSEPROXY="nginx"
     export BTCPAY_ENABLE_SSH=true
 
